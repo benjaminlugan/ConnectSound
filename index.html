@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="mentions_legales.html">
+    <link rel="stylesheet" href="contact.html">
+    <link rel="stylesheet" href="css/style_header.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" sizes="13x16" href="img/accueil/logo.png">
+</head>
+<header>
+    <div id="top"></div>
+    <div class="icon">
+        <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="237.764" height="278.11" viewBox="0 0 237.764 278.11">
+                <defs><style>.a{fill:rgba(214,92,88,0.65);}.b{fill:rgba(214,92,88,0.32);}.c{fill:rgba(62,20,20,0.65);}
+                .d{fill:rgba(62,20,20,0.33);}</style></defs><path
+                class="a" d="M54,101.932V282a27,27,0,0,1-54,0V101.932C19.717,101.964,35.819,101.823,54,101.932Z"
+                transform="translate(61 -101.89)"/><path class="b"
+                d="M53.605,130.923,54,382a27,27,0,0,1-54,0L1.232,130.923C26.185,130.989,29.594,130.931,53.605,130.923Z"
+                transform="translate(122 -130.89)"/><path class="c"
+                d="M54.764,289,54,423a27,27,0,0,1-54,0V289C29.788,289.025,32.255,289.109,54.764,289Z"
+                transform="translate(183 -288.89)"/><path class="d"
+                d="M53.945,254,54,381a27,27,0,0,1-54,0L.019,253.992C20.5,254.006,37.52,253.9,53.945,254Z"
+                transform="translate(0 -253.89)"/>
+            </svg>
+        </a>
+    </div>
+        <ul>
+            <li>
+                <div class="gift">
+                    <a href="don.html">Faire un Don </a>
+                </div>
+            </li>
+            <li>
+                <a href="#site">Le Concept</a>
+            </li>
+            <li>
+                <a href="#teams">L'équipe</a>
+            </li>
+            <li>
+                <div class="popup" id="popup-1">
+                    <div class="overlay"></div>
+                    <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                    <p>Pour commencer, vous pouvez renseigner votre e-mail afin de recevoir des
+                        informations sur notre site ; sa mise en ligne, un détail des fonctionnalités,
+                        les actus du jour sur notre site,
+                        et bien plus encore …
+                    </p>
+                    <div class="mail_us">
+                        <input name="client" value="Mail" id="mail" onfocus="if (this.value == 'Mail')
+                        {this.value = '';}" onblur="if (this.value == '') {this.value = 'Mail';}" type="text">
+                    </div>
+                        <a href="formulaire.html"><button id="button_other" type="submit">Valider</button></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <button class="change" onclick="togglePopup()">Se Lancer</button>
+            </li>
+        </ul>
+    <div class="trait"></div>
+</header>
+<body>
+    <div class="accueil">
+        <div class="title">
+            <div class="title_one">
+                <b>Connect</b>
+            </div>
+            <div class="title_two">
+                <b>Sound.</b>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="img/accueil/mic.png" alt="logo du site ConnectSound." width="171" height="400">
+        </div>
+        <div class="tagline">
+            <b>Le réseau social des musiciens</b>
+        </div>
+    </div>
+    <div class="function">
+        <div class="with_us">
+            <b>Avec nous :</b>
+        </div>
+        <div class="illus">
+            <div class="illus_one">
+                <img src="img/accueil/Notes de musique.png" height="243" width="241"/>
+                <p>Une diversité musicale</p>
+            </div>
+            <div class="illus_one">
+                <img src="img/accueil/Main.png" height="239" width="241"/>
+                <p>Des collaborations musicales</p>
+            </div>
+            <div class="illus_one">
+                <img src="img/accueil/egale.png" height="197" width="194"/>
+                <p>Une égalité des chances</p>
+            </div>
+        </div>
+    </div>
+    <div class="bow_one">
+        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"x="0px" y="0px"
+             viewBox="0 0 1921.5 911" style="enable-background:new 0 0 1921.5 911;" xml:space="preserve">
+            <style type="text/css">
+                .st0{fill:#555B6E;}
+            </style>
+            <path class="st0"
+            d="M1,0c212.06,99.34,566.15,259,1023.27,257c378.94-1.66,689.71-42.11,897.23-101l-1,754L0,911L1,0z"/>
+        </svg>
+    </div>
+    <div id="site"></div>
+    <div class="concept">
+        <h3>Le Concept</h3>
+    </div>
+    <div class="Explication">
+        <article class="explication1">
+            <div class="contenu1">
+                <h3>
+                    Postez vos création musicales
+                </h3>
+                <p>
+                    Avec ConnectSound, vous avez la
+                    possibilité de montrer à
+                    d'autres passionnés de musique ce que vous créez.
+                    Quel que soit votre domaine
+                    musical, tout le monde est bienvenu !
+                </p>
+            </div>
+            <img src="img/accueil/postez.PNG">
+        </article>
+        <article class="explication2">
+            <img src="img/accueil/mockup.png">
+            <div class="contenu2">
+                <h3>
+                    Collaborez !
+                </h3>
+                <p>
+                    Le but principal de notre site est de
+                    vous offrir la possibilité des créer de belles
+                    collaborations avec d'autres musiciens,
+                    comme vous.
+                    Faire de nouvelles rencontres,
+                    autour du sujet qui vous intéresse,
+                    un bon moyen de déconnecter, non ?
+                </p>
+            </div>
+        </article>
+        <article class="explication1">
+            <div class="contenu1">
+                <h3>
+                    Découvrez de nouveaux
+                    univers ...
+                </h3>
+                <p>
+                    ConnectSound vous propose toute sortes
+                    de styles musicaux différents.
+                    Du jazz au rap, en passant par la musique
+                    classique, tout est possible avec nous !
+                    C'est pour cette raison que notre site est
+                    propice à découvrir de nouveaux styles, que
+                    vous ne connaissiez pas ou peu.
+                </p>
+            </div>
+            <img src="img/accueil/decouvrez.png">
+        </article>
+        <article class="explication2">
+            <img src="img/accueil/Maquette_site.png">
+            <div class="contenu2">
+                <h3>
+                    Trouvez ce que vous cherchez en 2 clics
+                </h3>
+                <p>
+                    Grâce à la recherche via des filtres, vous
+                    pouvez sélectionner un style ou un instrument
+                    pour visionner tous les postes correspondants
+                    à la recherche.
+                    Des centres d'intérêts sont aussi
+                    à remplir lors de votre inscription. C'est grâce
+                    à ceux-ci que vous pourrez également trouver
+                    votre bonheur en 3 secondes chrono !
+                </p>
+            </div>
+        </article>
+        <article class="explication5">
+            <div class="contenu5">
+                <h3>C'est gratuit !</h3>
+                <p>ConnectSound est un site gratuit,
+                    vous avez accès à toutes les fonctionnalités
+                    de notre site sans payer.
+                    Le but est pour nous de garantir une
+                    égalité des chances pour tous.
+                </p>
+            </div>
+        </article>
+    </div>
+    <div class="join">
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup()">&times;</div>
+                <p>
+                    Pour commencer, vous pouvez renseigner votre e-mail afin de recevoir des
+                    informations sur notre site ; sa mise en ligne, un détail des fonctionnalités,
+                    les actus du jour sur notre site,
+                    et bien plus encore …
+                </p>
+                <div class="mail_us">
+                    <input name="client" value="Mail" id="mail" onfocus="if (this.value == 'Mail')
+                    {this.value = '';}" onblur="if (this.value == '') {this.value = 'Mail';}" type="text">
+                </div>
+                <a href="formulaire.html"><button id="button_other" type="submit">Valider</button></a>
+            </div>
+        </div>
+        <li>
+            <p><button class="change" onclick="togglePopup()">Rejoignez-nous !</button></p>
+        </li>
+    </div>
+    <div class="team">
+        <div id="teams"></div>
+        <h3>
+            L'équipe
+        </h3>
+    </div>
+    <div class="description">
+        <p>
+            Etudiants en première année de DUT MMI (Métiers du Multimédia et de l'Internet) à Montbéliard,
+            nous avons dû créer un site internet innovant : c'est donc de cette manière que ConnectSound
+            a vu le jour !
+        </p>
+    </div>
+    <div class="mates">
+        <ul>
+            <li>
+                <img src="img/accueil/equipe/Benjamin.png" alt="Benjamin, un des trois créateurs du site" width="150" height="279">
+                <p>Benjamin Lugan</p>
+            </li>
+            <li>
+                <img src="img/accueil/equipe/Maxime.png" alt="Maxime, un des trois créateurs du site" width="150" height="279">
+                <p>Maxime Malatier</p>
+            </li>
+            <li>
+                <img src="img/accueil/equipe/Solenne.png" alt="Solenne, un des trois créateurs du site" width="150" height="279">
+                <p>Solenne Heitz</p>
+            </li>
+        </ul>
+    </div>
+    <div class="bow_two">
+        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+             viewBox="0 0 1920 1600" style="enable-background:new 0 0 1920 1600;" xml:space="preserve">
+        <style type="text/css">
+            .st0{fill:#555B6E;}
+        </style>
+            <path id="Forme_x5F_bleu_x5F_2" class="st0" d="M1,0L0,937c217.59,117.32,576.91,272.24,1038,299.89
+            c368.27,22.08,673.31-44.72,882-110.85V0H1z"/>
+        </svg>
+    </div>
+    <div class="contact">
+        <a href="contact.html">Vous avez la possibilité de nous contacter ici !</a>
+    </div>
+    <div class="legal">
+            <a href="mentions_legales.html">Mentions légales</a>
+    </div>
+    <div class="arrow">
+        <a href="#top"><img src="img/accueil/arrow.png" alt="flèche directionnelle pour rediriger en haut de la page" width="256" height="256"></a>
+    </div>
+</body>
+</html>

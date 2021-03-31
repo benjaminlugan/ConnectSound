@@ -1,0 +1,62 @@
+.support {
+    font-family: 'Hind Madurai', sans-serif;
+    color: #555B6E;
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+.support h2 {
+    margin-left: 250px;
+}
+.name, .mail {
+    position: absolute;
+    border-left: hidden;
+}
+
+.mail {
+    margin-left: 800px;
+}
+
+.name {
+    margin-left: 275px;
+}
+
+.type {
+    background-color: #C8E3DD;
+    font-size: 25px;
+    color: #555B6E;
+    margin-top: 350px;
+    padding-top: 50px;
+    font-family: 'Hind Madurai', sans-serif;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+#champ-formulaire1, #champ-formulaire2,  #champ-formulaire3 {
+    width: 30%;
+    font-size: 30px;
+    border-radius: 20px;
+    color: #555B6E;
+    font-family: 'Hind Madurai', sans-serif;
+    padding: 3px;
+    margin-left: 3px;
+    outline: 0;
+    list-style: none;
+}
+
+.write ul li {
+    list-style: none;
+    text-decoration: none;
+    border-radius: 50px;
+    padding-bottom: 10px;
+}
+
+.write ul {
+    list-style: none;
+}
+
+.send {
+    margin-top: -3%;
+    margin-left: 80%;
+}

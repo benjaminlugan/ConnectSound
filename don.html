@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Don</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="mentions_legales.html">
+    <link rel="stylesheet" href="css/style_don.css">
+    <link rel="stylesheet" href="css/style_header.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<header>
+    <a href="index.html"><h1>Connect<span>Sound</span></h1></a>
+    <div class="logo_other">
+        <img src="img/accueil/mic.png" alt="logo du site ConnectSound." width="30" height="62">
+    </div>
+    <div id="top"></div>
+    <div class="icon">
+    <a href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="237.764" height="278.11" viewBox="0 0 237.764 278.11">
+        <defs><style>.a{fill: rgba(214, 92, 88, 0.65);}  .b{fill:rgba(214,92,88,0.32);}  .c{fill:rgba(62,20,20,0.65);}
+        .d{fill:rgba(62,20,20,0.33);}</style></defs><path
+        class="a" d="M54,101.932V282a27,27,0,0,1-54,0V101.932C19.717,101.964,35.819,101.823,54,101.932Z"
+        transform="translate(61 -101.89)"/><path class="b"
+        d="M53.605,130.923,54,382a27,27,0,0,1-54,0L1.232,130.923C26.185,130.989,29.594,130.931,53.605,130.923Z"
+        transform="translate(122 -130.89)"/><path class="c"
+        d="M54.764,289,54,423a27,27,0,0,1-54,0V289C29.788,289.025,32.255,289.109,54.764,289Z"
+        transform="translate(183 -288.89)"/><path class="d"
+        d="M53.945,254,54,381a27,27,0,0,1-54,0L.019,253.992C20.5,254.006,37.52,253.9,53.945,254Z"
+        transform="translate(0 -253.89)"/></svg>
+    </a>
+    </div>
+    <ul>
+        <li>
+            <a href="index.html#site">Le Concept</a>
+        </li>
+        <li>
+            <a href="index.html#teams">L'équipe</a>
+        </li>
+        <li>
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                    <p>Pour commencer, vous pouvez renseigner votre e-mail afin de recevoir des
+                        informations sur notre site ; sa mise en ligne, un détail des fonctionnalités,
+                        les actus du jour sur notre site,
+                        et bien plus encore …
+                    </p>
+                    <div class="mail_us">
+                        <input name="client" value="Mail" id="mail" onfocus="if (this.value == 'Mail')
+                        {this.value = '';}" onblur="if (this.value == '') {this.value = 'Mail';}" type="text">
+                    </div>
+                    <a href="formulaire.html"><button id="button_other" type="submit">Valider</button></a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <button class="change" onclick="togglePopup()">Se Lancer</button>
+        </li>
+        </li>
+    </ul>
+    <div class="trait"></div>
+</header>
+<body>
+    <div class="help_us">
+        <h3>
+            <b>
+                Faites un don !
+            </b>
+        </h3>
+        <p>
+            Nous avons besoin de vous pour mener à bien notre projet. Avant tout par votre
+            implication au sein de notre plateforme ; vos inscriptions nous sont très chers.
+            Mais un petit coup de pouce est également le bienvenu ! Cela nous permettrait de
+            nous développer plus rapidement et de vous proposer des fonctionnalités qui
+            pourraient vous plaire …
+            Si vous voulez faire un don, c'est par ici : https://www.kisskissbankbank.com/
+        </p>
+    </div>
+</body>
+</html>

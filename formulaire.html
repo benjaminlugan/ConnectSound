@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="css/style_formulaire.css">
+    <link rel="stylesheet" href="mentions_legales.html">
+    <link rel="stylesheet" href="don.html">
+    <link rel="stylesheet" href="css/style_header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+</head>
+<header>
+    <a href="index.html"><h1>Connect<span>Sound</span></h1></a>
+    <div class="logo_other">
+        <img src="img/accueil/mic.png" alt="logo du site ConnectSound." width="30" height="62">
+    </div>
+    <div id="top"></div>
+    <div class="icon">
+        <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="237.764" height="278.11" viewBox="0 0 237.764 278.11">
+                <defs><style>.a{fill: rgba(214, 92, 88, 0.65);}  .b{fill:rgba(214,92,88,0.32);}  .c{fill:rgba(62,20,20,0.65);}
+                .d{fill:rgba(62,20,20,0.33);}</style></defs><path
+                    class="a" d="M54,101.932V282a27,27,0,0,1-54,0V101.932C19.717,101.964,35.819,101.823,54,101.932Z"
+                    transform="translate(61 -101.89)"/><path class="b"
+                                                             d="M53.605,130.923,54,382a27,27,0,0,1-54,0L1.232,130.923C26.185,130.989,29.594,130.931,53.605,130.923Z"
+                                                             transform="translate(122 -130.89)"/><path class="c"
+                                                                                                       d="M54.764,289,54,423a27,27,0,0,1-54,0V289C29.788,289.025,32.255,289.109,54.764,289Z"
+                                                                                                       transform="translate(183 -288.89)"/><path class="d"
+                                                                                                                                                 d="M53.945,254,54,381a27,27,0,0,1-54,0L.019,253.992C20.5,254.006,37.52,253.9,53.945,254Z"
+                                                                                                                                                 transform="translate(0 -253.89)"/></svg>
+        </a>
+    </div>
+    <ul>
+        <li>
+            <div class="gift">
+                <a href="don.html">Faire un Don </a>
+            </div>
+        </li>
+        <li>
+            <a href="index.html#site">Le Concept</a>
+        </li>
+        <li>
+            <a href="index.html#teams">L'équipe</a>
+        </li>
+        </li>
+    </ul>
+    <div class="trait"></div>
+</header>
+</header>
+<body>
+    <div class="logo_other">
+        <img src="img/accueil/mic.png" alt="logo du site ConnectSound." width="30" height="62">
+    </div>
+
+    <div class="user">
+        <img src="img/formulaire/haut.png" alt="illustration utilisateur">
+    </div>
+    <div class="user_sentence">
+        <p>Entrez vos informations pour avoir accès à Connect<span>Sound</span>. dès son lancement : </p>
+    </div>
+    <div class="write">
+        <ul>
+            <li>
+                <input name="client" value="Nom" id="formulary_field" onfocus="if (this.value == 'Nom')
+                {this.value = '';}" onblur="if (this.value == 'Nom') {this.value = 'Nom';}" type="text">
+            </li>
+            <li>
+                <input name="client" value="Prénom" id="formulary_field" onfocus="if (this.value == 'Prénom')
+                {this.value = '';}" onblur="if (this.value == 'Prénom') {this.value = 'Prénom';}" type="text">
+            </li>
+            <li>
+                <input name="client" value="Nom Utilisateur" id="formulary_field" onfocus="if (this.value == 'Nom Utilisateur')
+                {this.value = '';}" onblur="if (this.value == 'Nom Utilisateur') {this.value = 'Nom Utilisateur';}" type="text">
+            </li>
+            <li>
+                <input type="date" id="champ-formulaire2" name="Date de Naissance"
+                       value="JJ-MM_YYYY"
+                       min="1900-01-01" max="2021-12-31">
+            </li>
+            <li>
+                <input type="password" id="formulary_field" name="client" minlength="8" value="Mot de Passe*"
+                       id="formulary_field" onfocus="if (this.value == 'Mot de Passe*')
+                       {this.value = '';}" onblur="if (this.value == 'Mot de Passe*') {this.value = 'Mot de Passe*';}" type="text">
+            </li>
+            <li>
+                <input type="checkbox" id="formulary_field" name="scales"
+                       checked>
+                <label for="champ-formulaire2">Recevoir nos mails d'actualité</label>
+            </li>
+            <li>
+                <input type="checkbox" id="formulary_field" name="scales"
+                       checked>
+
+                <label for="champ-formulaire2">J'accepte les conditions d'utilisation de ConnectSound.</label>
+            </li>
+            <li class="send">
+                <a href="index.html"><button id="button_other_two" type="submit">Valider</button></a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

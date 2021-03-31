@@ -1,0 +1,95 @@
+.user {
+    padding-top: 5%;
+}
+
+.user, .user_sentence {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user_sentence {
+    font-family: 'Hind Madurai', sans-serif;
+    color: #555B6E;
+    font-size: 175%;
+
+}
+
+#champ-formulaire1, #champ-formulaire2, #champ-formulaire3 {
+    color: #555B6E;
+    font-family: 'Hind Madurai', sans-serif;
+    padding: 3px;
+    margin-left: 3px;
+    outline: 0;
+}
+
+#champ-formulaire1, #champ-formulaire2,  #champ-formulaire3 {
+    width: 30%;
+    font-size: 30px;
+    border-radius: 20px;
+    color: #555B6E;
+}
+
+.send {
+    margin-top: -3%;
+    margin-left: 80%;
+}
+
+#button_other {
+    font-size: 35px;
+    background-color: #555B6E;
+    border-color: #555B6E;
+}
+
+#formulary_field {
+    color: #555B6E;
+    font-family: 'Hind Madurai', sans-serif;
+    padding: 3px;
+    margin-left: 3px;
+    outline: 0;
+    width: 30%;
+    font-size: 30px;
+    border-color: #d65c58;
+    border-left: hidden;
+    border-top: hidden;
+    border-right: hidden;
+    background-color: #FAF9F9;
+}
+
+#button_other_two {
+    font-size: 35px;
+    background-color: #555B6E;
+    border-color: #555B6E;
+}
+
+.write li:nth-child(6) #formulary_field, .write li:nth-child(7) #formulary_field{
+    width: 2%;
+}
+
+.write{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.write ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-left: 33%;
+    list-style: none;
+}
+.write li{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 50px;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: 'Hind Madurai', sans-serif;
+}
